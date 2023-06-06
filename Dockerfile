@@ -1,7 +1,7 @@
 FROM gradle:jdk17
 
-WORKDIR /journal-action-backend
+WORKDIR /computer-master-backend
 
-COPY . /journal-action-backend
+COPY . /computer-master-backend
 
 CMD ["gradle", "bootRun"]

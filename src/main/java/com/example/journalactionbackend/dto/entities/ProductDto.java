@@ -15,6 +15,7 @@ public class ProductDto {
     private String email;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm")
     private LocalDateTime creationDate;
+
     private String productName;
 
     public ProductDto() {
